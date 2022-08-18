@@ -56,6 +56,13 @@ export class AppComponent {
     this.user.answer = this.signUpForm.value.questionAnswer;
     this.user.gender = this.signUpForm.value.gender;
 
+    this.signUpForm.reset();
+
+    // this.signUpForm.reset({
+    //   userData:{
+    //     username:5566
+    //   }
+    // });
 
   }
 }
